@@ -1,7 +1,7 @@
 # Household Services App
 
 ## Description
-A platform connecting users with household service providers for cleaning, repairs, and maintenance. Features user registration, service listings, and secure booking management with a responsive UI.
+A user-friendly platform that connects individuals with household service providers for tasks like cleaning, repairs, and maintenance. It includes features like user registration, service listings, booking management, and secure authentication, all within a responsive and intuitive UI.
 
 ## Installation
 1. Clone the repository
@@ -9,10 +9,14 @@ A platform connecting users with household service providers for cleaning, repai
 3. Run the application
 
 ## Usage
-[Add usage instructions here]
+•⁠  ⁠Register/Login: Create an account to access services.
+	•	Browse Listings: View available service providers.
+	•	Book Services: Schedule and manage service requests.
+	•	Admin Panel: Manage users, services, and reviews.
+
 
 ## Contributing
-Pull requests are welcome.
+Pull requests are welcome! Please follow best practices and ensure proper documentation.
 
 ## License
-[Choose an appropriate license]
+
