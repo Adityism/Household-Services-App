@@ -1,7 +1,7 @@
-# Mobile App Development Project
+# Household Services App
 
 ## Description
-This is a mobile application project developed as part of the Mobile App Development course.
+A platform connecting users with household service providers for cleaning, repairs, and maintenance. Features user registration, service listings, and secure booking management with a responsive UI.
 
 ## Installation
 1. Clone the repository
