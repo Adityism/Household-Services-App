@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container d-flex justify-content-center align-items-center" style="min-height: 100vh;">
+    <div class="card shadow-lg" style="max-width: 400px; width: 100%; border-radius: 15px;">
+        <div class="card-body p-4">
+            <h3 class="text-center mb-4 text-primary">Welcome Back</h3>
+            <form method="POST" action="{{ url_for('auth.login') }}">
+                <div class="mb-3">
+                    <label for="username" class="form-label">Username</label>
+                    <input type="text" class="form-control" id="username" name="username"
+                        placeholder="Enter your username" required>
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password" name="password"
+                        placeholder="Enter your password" required>
+                </div>
+                <button type="submit" class="btn btn-primary w-100 py-2">Login</button>
+            </form>
+            <p class="mt-4 text-center" style="font-size: 0.9rem;">
+                Don't have an account? <a href="{{ url_for('auth.register') }}" class="text-primary">Register</a>
+            </p>
+        </div>
+    </div>
+</div>
+{% endblock %}

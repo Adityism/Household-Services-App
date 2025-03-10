@@ -1,0 +1,20 @@
+open the code in your favorite code editor
+open a new terminal
+type
+python -m venv env
+if using windows
+type './env/bin/activate'
+if using mac or linux
+type 'source env/bin/activate'
+
+then run
+pip install -r requirements.txt
+then type
+flask db init                                                         
+flask db migrate -m "Create migrations"
+flask db upgrade
+flask run
+visit localhost:5000 on any browser
+
+ADMIN_EMAIL=admin@example.com
+ADMIN_PASSWORD=securepassword123
