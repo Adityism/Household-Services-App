@@ -18,5 +18,5 @@ A user-friendly platform that connects individuals with household service provid
 ## Contributing
 Pull requests are welcome! Please follow best practices and ensure proper documentation.
 
-## License
+
 
